@@ -20,8 +20,8 @@ START_TEXT = os.environ.get("START_TEXT", "𝗛𝗲𝘆 𝗙𝗿𝗶𝗲𝗻𝗱
 MAX_RESULTS = int(os.environ.get("MAX_RESULTS", 10))
 
 # Help and About Texts
-HELP_TEXT = os.environ.get("HELP_TEXT", "📖 **Help Menu**\n\n1. Send any movie or series name to search.\n2. Use the quality and language filters to narrow down results.\n3. Click on the file name to receive it instantly.")
-ABOUT_TEXT = os.environ.get("ABOUT_TEXT", "❄️ **About This Bot**\n\nThis is a high-speed file storage and search bot for CineVerse users. It indexes thousands of files and provides them with minimal delay.\n\nDeveloper: [ @TDBotDev ]")
+HELP_TEXT = os.environ.get("HELP_TEXT", "📖 **𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨**\n\n1. 𝗦𝗲𝗻𝗱 𝗮𝗻𝘆 𝗺𝗼𝘃𝗶𝗲 𝗼𝗿 𝘀𝗲𝗿𝗶𝗲𝘀 𝗻𝗮𝗺𝗲 𝘁𝗼 𝘀𝗲𝗮𝗿𝗰𝗵.\n2. 𝗨𝘀𝗲 𝘁𝗵𝗲 𝗾𝘂𝗮𝗹𝗶𝘁𝘆 𝗮𝗻𝗱 𝗹𝗮𝗻𝗴𝘂𝗮𝗴𝗲 𝗳𝗶𝗹𝘁𝗲𝗿𝘀 𝘁𝗼 𝗻𝗮𝗿𝗿𝗼𝘄 𝗱𝗼𝘄𝗻 𝗿𝗲𝘀𝘂𝗹𝘁𝘀.\n3. 𝗖𝗹𝗶𝗰𝗸 𝗼𝗻 𝘁𝗵𝗲 𝗳𝗶𝗹𝗲 𝗻𝗮𝗺𝗲 𝘁𝗼 𝗿𝗲𝗰𝗲𝗶𝘃𝗲 𝗶𝘁 𝗶𝗻𝘀𝘁𝗮𝗻𝘁𝗹𝘆.")
+ABOUT_TEXT = os.environ.get("ABOUT_TEXT", "❄️ **𝗔𝗕𝗢𝗨𝗧 𝗧𝗛𝗜𝗦 𝗕𝗢𝗧**\n\n𝗧𝗛𝗜𝗦 𝗜𝗦 𝗔 𝗛𝗜𝗚𝗛-𝗦𝗣𝗘𝗘𝗗 𝗙𝗜𝗟𝗘 𝗦𝗧𝗢𝗥𝗔𝗚𝗘 𝗔𝗡𝗗 𝗦𝗘𝗔𝗥𝗖𝗛 𝗕𝗢𝗧 𝗙𝗢𝗥 𝗖𝗜𝗡𝗘𝗩𝗘𝗥𝗦𝗘 𝗨𝗦𝗘𝗥𝗦. 𝗜𝗧 𝗜𝗡𝗗𝗘𝗫𝗘𝗦 𝗧𝗛𝗢𝗨𝗦𝗔𝗡𝗗𝗦 𝗢𝗙 𝗙𝗜𝗟𝗘𝗦 𝗔𝗡𝗗 𝗣𝗥𝗢𝗩𝗜𝗗𝗘𝗦 𝗧𝗛𝗘𝗠 𝗪𝗜𝗧𝗛 𝗠𝗜𝗡𝗜𝗠𝗔𝗟 𝗗𝗘𝗟𝗔𝗬.\n\n𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥: [ @MOVIESEARCH ]")
 
 # Database Settings
 MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://iphone1234:hydra123@cluster1.cc8x4jf.mongodb.net/?appName=Cluster1")
